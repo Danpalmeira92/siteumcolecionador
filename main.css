@@ -1,0 +1,135 @@
+/* Estilo 1 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Estilo 2 */
+header,
+section h2,
+section h3 {
+    font-family: "Bungee", sans-serif;
+}
+
+body, input, textarea {
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #591286;
+    color: #ecf0f1;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+header h1,
+section h2 {
+    font-weight: normal;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+/* Estilo 3 */
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+/* Estilo 4 */
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* Estilo 5 */
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* Estilo 6 */
+.brands-list img {
+    height: 50px;
+}
+.brands-list li {
+    display: inline;
+    margin-right: 8px;
+}
+/* Estilo 7 */
+section .container {
+    align-items: flex-start;
+}
+section {
+    padding: 24px;
+}
+section h2 {
+    margin-bottom: 16px;
+}
+section {
+    color: #591286;
+}
+section p {
+    margin-bottom: 8px;
+}
+/* Estilo 8 */
+.store-front {
+    margin-right: 32px;
+    width: 500px;
+}
+#contact .container {
+display: block;
+}
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+form textarea {
+    resize: none;
+    height: 180px;
+    border-color: #591286;
+}
+form button {
+    background-color: #591286;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #7a33a7;
+}
+input:focus, textarea:focus {
+    outline-color: #591286;
+}
+.social-links img {
+    height: 24px;
+}
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+.social-links li a {
+text-decoration: none;
+}
+section h3 {
+    margin-bottom: 16px;
+}
+footer {
+background-color: #591286;
+color: #ecf0f1;
+padding: 16px;
+}
