@@ -97,6 +97,8 @@ form button {
     width: 320px;
     margin-bottom: 8px;
     padding: 8px;
+    border: 2px solid #591286;
+    box-sizing: border-box;
 }
 form textarea {
     resize: none;
