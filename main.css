@@ -119,6 +119,7 @@ input:focus, textarea:focus {
 }
 .social-links img {
     height: 24px;
+    cursor: pointer;
 }
 .social-links li {
     display: inline;
