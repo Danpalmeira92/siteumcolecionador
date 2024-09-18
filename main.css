@@ -36,6 +36,7 @@ header nav li {
 header h1,
 section h2 {
     font-weight: normal;
+    font-size: 25px;
 }
 
 header nav li a {
