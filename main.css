@@ -138,6 +138,7 @@ input:focus, textarea:focus {
     display: inline;
     margin-right: 8px;
     margin-bottom: 8px;
+    
 }
 .social-links li a {
 text-decoration: none;
