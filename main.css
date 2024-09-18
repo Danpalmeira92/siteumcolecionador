@@ -46,8 +46,11 @@ header nav li a {
 .container {
     max-width: 100%;
     padding: 0 16px;
-    width: 100%;
-    
+    margin: 0 auto;
+}
+img {
+    max-width: 100%;
+    height: auto;
 }
 /* Estilo 4 */
 header .container {
