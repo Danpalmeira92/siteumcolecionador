@@ -22,7 +22,9 @@ header {
 }
 @media (max-width: 768px) {
     header .container,
-    section .container {
+    section .container,
+    #contact,
+    #instagram {
         flex-direction: column;
         text-align: center;
     }
