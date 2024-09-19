@@ -26,6 +26,8 @@ header {
     #contact-instagram-wrapper {
         flex-direction: column;
         text-align: center;
+        margin-left: 0;
+        padding-left: 8px;
     }
 }
 
