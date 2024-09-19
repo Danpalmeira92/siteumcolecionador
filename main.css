@@ -158,3 +158,25 @@ padding: 16px;
     flex-direction: column;
     
 }
+/* Estilo para alinhar as seções lado a lado */
+#contact .container,
+#instagram .container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 16px;
+}
+
+/* Seções "contact" e "instagram" dentro do mesmo "container" */
+#contact-instagram-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+/* Garantindo que os títulos h2 fiquem acima */
+#contact h2, 
+#instagram h2 {
+    margin-bottom: 16px;
+    text-align: center;
+}
