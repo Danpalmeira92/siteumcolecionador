@@ -52,7 +52,7 @@ header nav li a {
     max-width: 100%;
     padding: 0 16px;
     margin: 0 auto;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.099);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.099);
 }
 img {
     max-width: 100%;
